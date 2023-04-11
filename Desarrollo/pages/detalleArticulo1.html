@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author1" content="Hildebrand Anthony">
+    <meta name="Author2" content="Mauro Diaz Santilli">
+    <meta name="Author3" content="Lobo Agustin Ignacio">
+    <meta name="Description" content="Blog de habitos saludables">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/MyStyle.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <title>Habitos Saludables</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">Vida Saludable</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sobre Nosotros</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <button class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <i class="bi bi-brightness-high-fill" id="IconTema"></i>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><button class="dropdown-item" id="btnTemaClaro"><i class="bi bi-brightness-high-fill"></i> Claro</button></li>
+                            <li><button class="dropdown-item" id="btnTemaOscuro"><i class="bi bi-moon-stars-fill"></i> Oscuro</button></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="container-fluid mt-5">
+            <h2 class="text-center border bg-success text-white">Ejercicio fisico</h1>
+                <article class="container-fluid w-75 my-4 border border-success rounded-2">
+                  <div class="row my-4">
+                      <div class="col-md-6">
+                          <img src="../img/Articulo1/1.jpg" class="img-fluid" alt="Ejercicio fisico"/>
+                          <img src="../img/Articulo1/2.jpg" class="img-fluid mt-3" alt="Ejercicio fisico"/>
+                      </div>
+                      <div class="col-md-6">
+                          <h4 class="text-center mt-3">El ejercicio y usted</h4>
+                      <p>Cualquier actividad física representa notables beneficios sobre la salud del cuerpo y la calidad de vida de las personas. Es importante que un profesional indique cuál es la más adecuada para cada uno en función del estado de salud general y, desde luego, preferencias personales.</p>
+                        <p>Cada vez más estudios científicos comprueban los beneficios de hacer ejercicio físico y las ventajas abarcan diversos sistemas y órganos del cuerpo:</p>
+                        <p><strong>Mejora la salud cardiovascular:</strong> Al hacer ejercicio físico de manera regular, el corazón se entrena para latir con mayor lentitud y fuerza, de manera tal que precisa menos oxígeno para funcionar bien.</p>
+                        <p><strong>Mantiene los huesos fuertes:</strong>  Conforme pasan los años, la fuerza ósea se va debilitando, a razón del 1% al año. El entrenamiento de resistencia, levantando peso al menos una hora por semana, y según el estado general del organismo, fortalece el sistema óseo.</p>
+                        <p><strong>Construye masa muscular:</strong> El entrenamiento de resistencia también ayuda a fabricar músculos, componentes que se van perdiendo paulatinamente después de los treinta años.  La fortaleza de la musculatura a la vez se relaciona con una mejor capacidad aeróbica y con un índice de masa corporal más saludable.</p>
+                        <p><strong>Beneficia al estado de ánimo:</strong>  La actividad física estimula la producción de sustancias cerebrales (neurotransmisores) involucradas en la sensación de placer y bienestar. Los estudios científicos muestran que al menos veinte minutos de actividad física, mejoran la capacidad cognitiva, tienen efectos antidepresivos, energizantes y ansiolíticos naturales.</p>                               
+                  </div>        
+                </article>
+        </section>     
+    </main>
+
+    <footer class="bg-dark text-light text-center py-4">
+        <p>&copy; Todos los derechos reservados.</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+    </script>
+    <script src="../js/app.js"></script>
+</body>
+</html>
