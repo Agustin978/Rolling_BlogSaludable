@@ -9,3 +9,7 @@ main
 {
     flex-grow: 1;
 }
+
+.card {
+    height: 500px;
+ }
