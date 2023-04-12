@@ -9,3 +9,8 @@ main
 {
     flex-grow: 1;
 }
+
+.articulos
+{
+    justify-content: center;
+}
