@@ -36,7 +36,7 @@ function determinaArticulo()
     //console.log(nombreArticulo.innerHTML);
     switch(nombreArticulo.innerHTML)
     {
-        case 'Actividad fisica':
+        case 'Ejercicio fisico':
             return 'Articulo1';
         case 'El cigarrillo y la salud':
             return 'Articulo2';
