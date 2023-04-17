@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author1" content="Hildebrand Anthony">
+    <meta name="Author2" content="Mauro Diaz Santilli">
+    <meta name="Author3" content="Lobo Agustin Ignacio">
+    <meta name="Description" content="Blog de habitos saludables">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/MyStyle.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <title>Habitos Saludables</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">Vida Saludable</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sobre Nosotros</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <button class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <i class="bi bi-brightness-high-fill" id="IconTema"></i>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><button class="dropdown-item" id="btnTemaClaro"><i class="bi bi-brightness-high-fill"></i> Claro</button></li>
+                            <li><button class="dropdown-item" id="btnTemaOscuro"><i class="bi bi-moon-stars-fill"></i> Oscuro</button></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <section class="container-fluid mt-5">
+            <h2 class="text-center border bg-success text-white p-1" id="nombreArticulo">No tomar mucho alcohol</h2>
+            <article class="container-fluid w-75 my-4 border border-success rounded-2">
+                <div class="my-4">
+                    <h3 class="text-center">Riesgos para la salud a corto plazo</h3>
+                    <div class="row">
+                        <aside class="col-12 col-lg-8">
+                            <p>El consumo excesivo de alcohol tiene efectos inmediatos que aumentan el riesgo de muchas consecuencias dañinas para la salud. Las cuales son en su mayoría el resultado de los atracones de alcohol e incluyen las siguientes:</p>
+                            <ol class="list-group list-group-numbered">
+                                <li class="list-group-item">Lesiones, como por choques de vehículos automotores, caídas, ahogamientos y quemaduras.</li>
+                                <li class="list-group-item">Violencia, como homicidios, suicidios, agresión sexual y violencia doméstica con parejas sexuales.</li>
+                                <li class="list-group-item">Intoxicación por alcohol, una emergencia médica que es ocasionada por niveles altos de alcohol en la sangre.</li>
+                                <li class="list-group-item">Comportamientos sexuales riesgosos, como tener relaciones sexuales sin protección o con múltiples parejas. Estos comportamientos pueden ocasionar embarazos no planeados o enfermedades de transmisión sexual, como el VIH.</li>
+                                <li class="list-group-item">Abortos espontáneos y muerte fetal o trastornos del espectro alcohólico fetal en las mujeres embarazadas y los bebés.</li>
+                            </ol>
+                        </aside>
+                        <figure class="col-12 col-lg-3 text-center mt-3" style="margin: auto; width: 24vh;">
+                            <img class="img-fluid" src="../img/Articulo3/noAlAlcohol.jpeg" alt="adiccion al alcohol">
+                        </figure>
+                        <aside class="col-12 col-lg-8 mt-3">
+                            <h3 class="text-center">Riesgos para la salud a largo plazo</h3>
+                            <p>Con el tiempo, el consumo excesivo de alcohol puede causar enfermedades crónicas y otros serios problemas como los siguientes:</p>
+                            <ol class="list-group list-group-numbered">
+                                <li class="list-group-item">Alta presión arterial, enfermedad cardiaca, accidentes cerebrovasculares, enfermedad del hígado y problemas digestivos.</li>
+                                <li class="list-group-item">Cáncer de mama, boca, garganta, laringe, esófago, hígado, colon y recto.</li>
+                                <li class="list-group-item">Problemas de aprendizaje y memoria, como demencia y bajo rendimiento escolar.</li>
+                                <li class="list-group-item">Problemas de salud mental, como depresión y ansiedad.</li>
+                                <li class="list-group-item">Problemas familiares, problemas relacionados con el trabajo y desempleo.</li>
+                                <li class="list-group-item">Dependencia al alcohol o alcoholismo.</li>
+                            </ol>
+                        </aside>
+                        <figure class="col-12 col-lg-3 text-center mt-3" style="margin: auto; width: 24vh;">
+                            <img class="img-fluid" src="../img/Articulo3/alcoholYSalud.png" alt="efectos del tabaco en la salud">
+                        </figure>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <form class="container mt-2" id="formularioComentarios">
+            <h1 class="text-center fs-2 fw-bold">Desea dejarnos un comentario?</h1>
+            <div class="mb-3">
+              <label for="formEmail" class="form-label">Ingrese su E-mail</label>
+              <input type="email" class="form-control" id="formEmail" aria-describedby="emailHelp" minlength="5" maxlength="80" required>
+            </div>
+            <div class="mb-3">
+                <label for="formComentario" class="form-label">Deje su comentario:</label>
+                <textarea class="form-control" id="formComentario" rows="4" maxlength="250" required></textarea>
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="formCheck">
+              <label class="form-check-label" for="formCheck">Recuerdame</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+        <section class="container mt-3" id="cajaComentarios"></section>
+    </main>
+    <footer class="bg-dark text-light text-center py-4">
+        <p>&copy; Todos los derechos reservados.</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+    </script>
+    <script src="../js/app.js"></script>
+    <script src="../js/comentarios.js"></script>
+</body>
+</html>
