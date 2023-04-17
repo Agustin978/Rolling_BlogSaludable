@@ -22,11 +22,10 @@ function cambiarTema(tema)
     localStorage.setItem('tema',JSON.stringify(tema));
 }
 
- 
-  var imagen = document.getElementById('FunProLogo');
+  let sponsorImg = document.getElementById('FunProLogo');
     
-  function mostrarImagen() {
-      imagen.style.display = 'block';
+  function aparecePublicidad() {
+      sponsorImg.style.display = 'block';
   }
   
-  setTimeout(mostrarImagen, 4000);
+  setTimeout(aparecePublicidad, 4000);
