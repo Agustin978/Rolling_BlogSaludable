@@ -32,4 +32,10 @@ main
 
 .publicidadImg {
   display: none;
+  margin: auto;
 }
+
+#cerrarPubli {
+    display: none;
+    margin: auto;
+  }
