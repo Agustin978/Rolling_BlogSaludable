@@ -21,3 +21,15 @@ function cambiarTema(tema)
     body.setAttribute('data-bs-theme', tema);
     localStorage.setItem('tema',JSON.stringify(tema));
 }
+
+  let imagenSponsor = document.getElementById('FunProLogo');
+
+  function aparecePublicidad() {
+      imagenSponsor.style.display = 'block';
+    
+      setTimeout(function() {
+          imagenSponsor.style.display = 'none';
+      }, 4000);
+  }
+  
+  setTimeout(aparecePublicidad, 4000);
