@@ -31,11 +31,11 @@ main
 }
 
 .publicidadImg {
-  display: block;
-  width: 280px;
-  height: 203px;
-  background-image: url('/img/Articulo1/Sponsor.jpg');
-  background-size: contain;
-  background-repeat: no-repeat;
-  padding: 20px;
+  display: none;
+  margin: auto;
 }
+
+#cerrarPubli {
+    display: none;
+    margin: auto;
+  }

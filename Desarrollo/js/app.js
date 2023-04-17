@@ -22,14 +22,20 @@ function cambiarTema(tema)
     localStorage.setItem('tema',JSON.stringify(tema));
 }
 
-  let imagenSponsor = document.getElementById('FunProLogo');
+let sponsorImg = document.getElementById('FunProLogo')
+let cerrarPubli = document.getElementById('cerrarPubli')
 
-  function aparecePublicidad() {
-      imagenSponsor.style.display = 'block';
-    
-      setTimeout(function() {
-          imagenSponsor.style.display = 'none';
-      }, 4000);
-  }
-  
-  setTimeout(aparecePublicidad, 4000);
+function aparecePublicidad() {
+  sponsorImg.style.display = 'block'
+  cerrarPubli.style.display = 'block'
+}
+
+function fueraPublicidad() {
+  sponsorImg.style.display = 'none'
+  cerrarPubli.style.display = 'none'
+}
+
+setTimeout(aparecePublicidad, 4000);
+
+cerrarPubli.addEventListener('click', fueraPublicidad);
+
