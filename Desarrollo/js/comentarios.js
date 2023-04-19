@@ -23,17 +23,14 @@ function controlaComentario(e)
             comentarios = JSON.parse(comentariosAlmacenados);
         }
         comentarios.push(mail.value+'/'+comentario.value);
-        //console.log(comentarios);
         localStorage.setItem(articulo,JSON.stringify(comentarios));
         formularioComentarios.reset();
         cargaComentarios();
     }
-    //console.log('Agregando comentario...');
 }
 
 function determinaArticulo()
 {
-    //console.log(nombreArticulo.innerHTML);
     switch(nombreArticulo.innerHTML)
     {
         case 'Ejercicio fisico':
@@ -44,7 +41,7 @@ function determinaArticulo()
             return 'Articulo3';
         case 'Una dieta equilibrada':
             return 'Articulo4';
-        case 'Dormir bien':
+        case 'Descansar Correctamente':
             return 'Articulo5';
     }
 }
@@ -64,10 +61,8 @@ function cargaComentarios()
     {
         let comentariosHTML = '';
         comentarios = JSON.parse(comentariosAlmacenados);
-        //console.log(comentarios);
         comentarios.map(com => {
             datos = com.split('/');
-            //console.log(datos);
             comentariosHTML += creaCardComentarioHTML(datos[0],datos[1]);
         })
         cajaComentarios.innerHTML = comentariosHTML;
