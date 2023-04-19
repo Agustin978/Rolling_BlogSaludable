@@ -8,15 +8,12 @@ const agregarCardsModales = document.getElementById('agregaCards');
 function buscarArticulo(e)
 {
     e.preventDefault();
-    //let articulo = document.getElementById('articuloBuscado');
-    //console.log(articuloBusca.value);
     let buscado = articuloBusca.value;
     let cards = '';
     let verifica = 0;
     agregarCardsModales.innerHTML = cards;
     for(let i = 0; i < etiquetas.length; i++)
     {
-        //console.log(etiquetas[i].innerHTML.toLowerCase());
         if(etiquetas[i].innerHTML.toLowerCase().includes(buscado))
         {
             cards += creaCardHTML(etiquetas[i].innerHTML);
@@ -32,7 +29,6 @@ function buscarArticulo(e)
     {
         alert('El articulo solicitado no se encuentra almacenado :( \nIntente nuevamente.');
     }
-    //etiquetas.map(etiqueta=>{console.log(etiqueta.innerHTML)});
 }
 
 function creaCardHTML(titulo) {
